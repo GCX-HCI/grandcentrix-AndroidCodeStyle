@@ -1,6 +1,12 @@
 # Android Code Style @ GCX
 
 ## Installation on your local machine
+
+### Automatically (the easiest way)
+Just run the [`install`](install.sh) script.
+It will automatically copy the latest Code Style to each existing `AndroidStudio` and `AndroidStudioPreview` version you have installed.
+
+### Manually (the hard way)
 1. Copy the [`AndroidTeam_latest.xml`](styles/AndroidTeam_latest.xml) into ``~/Library/Preferences/AndroidStudio{VERSION}/codestyles/``
 2. Restart AndroidStudio
 3. Select the codestyle scheme via `Preferences --> Editor --> Code Style`.
