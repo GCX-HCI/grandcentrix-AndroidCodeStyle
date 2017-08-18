@@ -35,3 +35,5 @@ The PR should always contain:
 * Some information what have changed. Inside the [CHANGELOG.md](CHANGELOG.md).
 * A updated [`AndroidTeam_latest.xml`](styles/AndroidTeam_latest.xml) to make it compareable to an older version.
 * A new version in the [styles](/styles) folder.
+
+> **Note:** Just a rename don't make a "new Code Style version". You have also update the name of the scheme to the current version. See [first line](styles/AndroidTeam_latest.xml) of each file.
