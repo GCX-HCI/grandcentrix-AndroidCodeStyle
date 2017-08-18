@@ -2,10 +2,10 @@
 # Installs GCX AndroidStudio Code Style into your AndroidStudio codestyles folder.
 # Inspired by https://git.io/v7jmC
 
-echo "Installing GCX AndroidStudio configs..."
+echo "Installing GCX AndroidStudio code style..."
 echo ""
 
-LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/AndroidTeam_latest.xml"
+LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/grandcentrix.xml"
 for TARGET_DIR in $HOME/Library/Preferences/AndroidStudio*         \
                   $HOME/Library/Preferences/AndroidStudioPreview*
 
@@ -22,4 +22,4 @@ done
 
 echo ""
 echo "Done."
-echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'AndroidTeam Latest'."
+echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'grandcentrix'."
