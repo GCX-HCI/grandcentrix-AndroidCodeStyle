@@ -44,3 +44,6 @@ The PR should always contain:
 * A new version in the [styles](/styles) folder.
 
 > **Note:** Just a rename don't make a "new Code Style version". You have also update the name of the scheme to the current version. See [first line](styles/grandcentrix.xml) of each file.
+
+## License
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
