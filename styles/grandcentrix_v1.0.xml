@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<code_scheme name="AndroidTeam v1.0">
+<code_scheme name="grandcentrix v1.0">
   <option name="JAVA_INDENT_OPTIONS">
     <value>
       <option name="INDENT_SIZE" value="4" />
@@ -381,4 +381,3 @@
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
-
