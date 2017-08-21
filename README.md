@@ -1,4 +1,4 @@
-# Android Code Style @ GCX
+# Android Code Style @ gcx
 
 ## Installation on your local machine
 
