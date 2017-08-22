@@ -28,22 +28,13 @@ Finally add the code style to the git repository:
 git add -f .idea/codeStyleSettings.xml
 ```
 
-## History
-The currently latest version is always pointed to [`grandcentrix.xml`](styles/grandcentrix.xml).
-This is always a copy of the style with the highest version number.
-
-A changelog can be found in the [CHANGELOG](CHANGELOG.md) file.
-
 ## Contributing
 To contribute just change the code style locally to your needs.
 Then you can create a PR to this repository.
 
 The PR should always contain:
-* Some information what have changed. Inside the [CHANGELOG.md](CHANGELOG.md).
-* A updated [`grandcentrix.xml`](styles/grandcentrix.xml) to make it compareable to an older version.
-* A new version in the [styles](/styles) folder.
-
-> **Note:** Just a rename don't make a "new Code Style version". You have also update the name of the scheme to the current version. See [first line](styles/grandcentrix.xml) of each file.
+* Some information what have changed.
+* A updated [`grandcentrix.xml`](styles/grandcentrix.xml).
 
 ## License
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
