@@ -348,6 +348,16 @@
           <rule>
             <match>
               <AND>
+                <NAME>onActivityResult</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <NAME>onResume</NAME>
                 <OVERRIDDEN />
               </AND>
@@ -439,16 +449,6 @@
             <match>
               <AND>
                 <NAME>onDetach</NAME>
-                <OVERRIDDEN />
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <NAME>onActivityResult</NAME>
                 <OVERRIDDEN />
               </AND>
             </match>
