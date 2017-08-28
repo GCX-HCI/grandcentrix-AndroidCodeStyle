@@ -8,6 +8,7 @@
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
     <value>
       <package name="org.mockito" withSubpackages="true" static="true" />
+      <package name="org.junit" withSubpackages="true" static="false" />
       <package name="org.hamcrest" withSubpackages="true" static="true" />
       <package name="org.assertj.core.api.Java6Assertions" withSubpackages="false" static="true" />
       <package name="org.assertj.core.api.Assertions" withSubpackages="false" static="true" />
@@ -76,6 +77,7 @@
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
       <value>
         <package name="com.nhaarman.mockito_kotlin" withSubpackages="false" static="false" />
+        <package name="org.junit" withSubpackages="true" static="false" />
         <package name="org.mockito" withSubpackages="true" static="false" />
         <package name="org.hamcrest" withSubpackages="true" static="false" />
         <package name="org.assertj.core.api.Assertions" withSubpackages="false" static="false" />
