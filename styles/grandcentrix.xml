@@ -128,6 +128,20 @@
     <option name="FOR_BRACE_FORCE" value="3" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>OVERRIDDEN_METHODS</type>
+          <order></order>
+        </group>
+        <group>
+          <type>DEPENDENT_METHODS</type>
+          <order></order>
+        </group>
+      </groups>
       <rules>
         <section>
           <rule>
