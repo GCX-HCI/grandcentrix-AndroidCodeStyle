@@ -268,16 +268,6 @@
           <rule>
             <match>
               <AND>
-                <NAME>onPostCreate</NAME>
-                <OVERRIDDEN />
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
                 <NAME>onCreateView</NAME>
                 <OVERRIDDEN />
               </AND>
@@ -328,6 +318,16 @@
           <rule>
             <match>
               <AND>
+                <NAME>onActivityResult</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <NAME>onRestoreInstanceState</NAME>
                 <OVERRIDDEN />
               </AND>
@@ -338,7 +338,7 @@
           <rule>
             <match>
               <AND>
-                <NAME>onRestart</NAME>
+                <NAME>onPostCreate</NAME>
                 <OVERRIDDEN />
               </AND>
             </match>
@@ -348,7 +348,7 @@
           <rule>
             <match>
               <AND>
-                <NAME>onActivityResult</NAME>
+                <NAME>onRestart</NAME>
                 <OVERRIDDEN />
               </AND>
             </match>
