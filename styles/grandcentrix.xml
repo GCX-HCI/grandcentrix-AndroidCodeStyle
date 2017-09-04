@@ -308,6 +308,226 @@
           <rule>
             <match>
               <AND>
+                <NAME>onAttach</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onCreate</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onCreateView</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onViewCreated</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onActivityCreated</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onViewStateRestored</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onStart</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onActivityResult</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onRestoreInstanceState</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onPostCreate</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onRestart</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onResume</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onPostResume</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onNewIntent</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onPause</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onStop</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onSaveInstanceState</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onRetainNonConfigurationInstance</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onDestroyView</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onDestroy</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onDetach</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onRequestPermissionsResult</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <METHOD>true</METHOD>
                 <PUBLIC>true</PUBLIC>
               </AND>
