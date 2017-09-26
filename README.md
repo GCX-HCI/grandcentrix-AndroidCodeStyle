@@ -10,17 +10,14 @@ Code formatting rules for Android Studio
 - `android:id` after `xmlns` declaration in XML layouts
 - [Keep lifecycle methods together](https://github.com/grandcentrix/AndroidCodeStyle/issues/3)
 - [Keep getters and setters together](https://github.com/grandcentrix/AndroidCodeStyle/issues/7)
-- Sort methods alphabetically (a-z) and by visibility (`public`-`private`). More details below:
-
-### Code Arrangement (Java)
-
-- Inner classes (classes, interfaces, enums)
-- Fields (grouped by visibility, a-z)
-- [public static methods](https://github.com/grandcentrix/AndroidCodeStyle/issues/8) (a-z)
-- Constructors
-- [Android Lifecycle methods](https://github.com/grandcentrix/AndroidCodeStyle/issues/3) in correct order
-- Methods ([grouped by visibility, a-z](https://github.com/grandcentrix/AndroidCodeStyle/issues/6))
-- static methods (grouped by visibility (except public), a-z)
+- Advanced code Arrangement rules for Java (Sort methods alphabetically (a-z) and by visibility (`public`-`private`))
+  - Inner classes (classes, interfaces, enums)
+  - Fields (grouped by visibility, a-z)
+  - [public static methods](https://github.com/grandcentrix/AndroidCodeStyle/issues/8) (a-z)
+  - Constructors
+  - [Android Lifecycle methods](https://github.com/grandcentrix/AndroidCodeStyle/issues/3) in correct order
+  - Methods ([grouped by visibility, a-z](https://github.com/grandcentrix/AndroidCodeStyle/issues/6))
+  - static methods (grouped by visibility (except public), a-z)
 
 ## Installation on your local machine
 
