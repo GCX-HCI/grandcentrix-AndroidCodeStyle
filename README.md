@@ -1,4 +1,4 @@
-# Android Code Style @ gcx
+# Android Code Style
 
 Code formatting rules for Android Studio
 
