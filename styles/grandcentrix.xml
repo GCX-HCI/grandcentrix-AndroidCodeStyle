@@ -1,5 +1,5 @@
 <code_scheme name="grandcentrix">
-  <option name="FIELD_NAME_PREFIX" value="m" />
+  <option name="FIELD_NAME_PREFIX" value="s" />
   <option name="STATIC_FIELD_NAME_PREFIX" value="m" />
   <option name="GENERATE_FINAL_LOCALS" value="true" />
   <option name="GENERATE_FINAL_PARAMETERS" value="true" />
