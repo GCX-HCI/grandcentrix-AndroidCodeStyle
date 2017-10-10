@@ -7,14 +7,16 @@ echo ""
 
 LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/grandcentrix.xml"
 for TARGET_DIR in $HOME/Library/Preferences/AndroidStudio*         \
-                  $HOME/Library/Preferences/AndroidStudioPreview*
+                  $HOME/Library/Preferences/AndroidStudioPreview*  \
+                  ~/.AndroidStudio*/config                         \
+                  ~/.AndroidStudioPreview*/config
 
 do
   if [[ -d $TARGET_DIR ]]; then
-
     # create codestyles dir and ...
     mkdir -p ${TARGET_DIR}/codestyles
     # ... copy to latest style to ${TARGET_DIR}
+    echo "Copying..."
     cp -frv ${LATEST_CODE_STYLE} ${TARGET_DIR}/codestyles
 
   fi
