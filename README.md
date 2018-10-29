@@ -25,6 +25,11 @@ Code formatting rules for Android Studio
 Just run the [`install`](install.sh) script.
 It will automatically copy the latest Code Style to each existing `AndroidStudio` and `AndroidStudioPreview` version you have installed.
 
+You can also install it directly into an Android Project by running
+```
+$ ./install.sh PATH/TO/YOUT/PROJECT
+```
+
 ### Manually (the hard way)
 1. Copy the [`grandcentrix.xml`](styles/grandcentrix.xml) into (MacOS) ``~/Library/Preferences/AndroidStudio{VERSION}/codestyles/`` or (Linux) ``~/.AndroidStudio{VERSION}/config/codestyles/``
 2. Restart AndroidStudio
