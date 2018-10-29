@@ -44,7 +44,7 @@ If the codestyle is added to the git repository and IntelliJ is configured accor
 
 Finally add the code style to the git repository:
 ```
-git add -f .idea/codeStyleSettings.xml
+git add -f .idea/codestyles/Project.xml .idea/codestyles/codeStyleConfig.xml
 ```
 
 ## Contributing
