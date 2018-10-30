@@ -10,7 +10,12 @@ echo ""
 
 LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/grandcentrix.xml"
 if [ "$1" != "" ]; then
-  TARGET_DIR=("$1.idea")
+  lastChar=${1: -1}
+  if [[ $lastChar == '/' ]]; then
+    TARGET_DIR=("$1.idea")
+  else
+    TARGET_DIR=("$1/.idea")
+  fi
 else
   TARGET_DIR=("$HOME/Library/Preferences/AndroidStudio*" "$HOME/Library/Preferences/AndroidStudioPreview*" \
                 "~/.AndroidStudio*/config" "~/.AndroidStudioPreview*/config")
