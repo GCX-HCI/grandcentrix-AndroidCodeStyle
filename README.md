@@ -18,6 +18,7 @@ Code formatting rules for Android Studio
   - [Android Lifecycle methods](https://github.com/grandcentrix/AndroidCodeStyle/issues/3) in correct order
   - Methods ([grouped by visibility, a-z](https://github.com/grandcentrix/AndroidCodeStyle/issues/6))
   - static methods (grouped by visibility (except public), a-z)
+ - Official [Kotlin Code Style](https://kotlinlang.org/docs/reference/coding-conventions.html)
 
 ## Installation on your local machine
 
