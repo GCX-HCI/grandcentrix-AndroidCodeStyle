@@ -31,6 +31,9 @@ You can also install it directly into an Android Project by running
 $ ./install.sh PATH/TO/YOUT/PROJECT
 ```
 
+> **Note:** Before you commit the changes to git make sure you have opened AS/IntelliJ already.
+            The IDE will slightly change the XML after the coping.
+
 ### Manually (the hard way)
 1. Copy the [`grandcentrix.xml`](styles/grandcentrix.xml) into (MacOS) ``~/Library/Preferences/AndroidStudio{VERSION}/codestyles/`` or (Linux) ``~/.AndroidStudio{VERSION}/config/codestyles/``
 2. Restart AndroidStudio
