@@ -95,6 +95,7 @@
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
       <value>
         <package name="com.nhaarman.mockito_kotlin" withSubpackages="false" static="false" />
+        <package name="io.mockk.*" withSubpackages="true" static="false" />
         <package name="org.junit" withSubpackages="true" static="false" />
         <package name="org.mockito" withSubpackages="true" static="false" />
         <package name="org.hamcrest" withSubpackages="true" static="false" />
