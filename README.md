@@ -22,12 +22,12 @@ Code formatting rules for Android Studio
 
 ## Installation on your local machine
 
-### Automatically (the easiest way)
+### Automatically (the easiest way) (OSX and Linux only)
 Just run the [`install`](install.sh) script.
 It will automatically copy the latest Code Style to each existing `AndroidStudio` and `AndroidStudioPreview` version you have installed.
 
 ### Manually (the hard way)
-1. Copy the [`grandcentrix.xml`](styles/grandcentrix.xml) into (MacOS) ``~/Library/Preferences/AndroidStudio{VERSION}/codestyles/`` or (Linux) ``~/.AndroidStudio{VERSION}/config/codestyles/``
+1. Copy the [`grandcentrix.xml`](styles/grandcentrix.xml) into (MacOS) ``~/Library/Preferences/AndroidStudio{VERSION}/codestyles/`` or (Linux) ``~/.AndroidStudio{VERSION}/config/codestyles/`` or (Windows) ``%UserProfile%\.AndroidStudio{VERSION}\config\codestyles\``
 2. Restart AndroidStudio
 3. Select the codestyle scheme via `Preferences --> Editor --> Code Style`.
 
